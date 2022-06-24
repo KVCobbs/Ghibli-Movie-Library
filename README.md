@@ -1,8 +1,11 @@
 # Ghibli-Movie-Library
-This is a personal project for myself to understand fetching more as well as work on more frontend code 
+This is a personal project for myself to understand fetching more as well as work on more frontend code. This project uses https://github.com/janaipakos/ghibliapi as the API. 
+
 features of this project: 
+
 MVP 
-- Completed front end
+- Use bootstrap in order to create readable UI 
+- 
 - Completed working back end 
 
 
