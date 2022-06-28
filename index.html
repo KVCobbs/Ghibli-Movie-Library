@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="top" lang="en">
    <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,36 +11,29 @@
       <title>Ghibli Movie Library</title>
    </head>
    <body>
-      <nav class="navbar navbar-expand-md bg-light">
+      <nav id="n" class="navbar">
          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Ghibli Library</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">Movie Quiz</a>
-                  </li>
-                     </ul>
-                  </li>
-               </ul>
-               <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-               </form>
-            </div>
+            <a id="top" class="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/800px-Studio_Ghibli_logo.svg.png" width="200" height="100"></a>
+            <form class ="d-flex" role="search">
+               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+               <button class="btn btn-outline-info" type="submit">Search</button>
+            </form>
          </div>
       </nav>
-<div class ="container">
-    <div class="row">
-        <div class = "col-xs-4 square red"> 1 </div>
-        <div class = "col-xs-4 square blue"> 2 </div>
-        <div class = "col-xs-4 square red"> 3 </div>
-        <div class = "col-xs-4 square blue"> 4 </div>
-        <div class = "col-xs-4 square red"> 5 </div>
-        <div class = "col-xs-4 square blue"> 6 </div>
-        </div>
-    </div>
+      <!--Jumbotron-->
+      <div id="jumbotron" class="container-fluid bg-light text-dark p-5">
+         <div class="container bg-light p-5">
+            <h1 class="text">nausicaa of the valley of the wind</h1>
+            <p>changes</p>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row row-cols-4">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+            <div class="col">4</div>
+         </div>
+      </div>
    </body>
 </html>
