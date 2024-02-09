@@ -12,3 +12,4 @@ Stretch Features
 - Ghibli quiz
 - light and dark mode 
 - carousel of main movies(only 3)
+- Design for mobile as well
