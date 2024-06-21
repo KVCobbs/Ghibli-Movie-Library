@@ -1,25 +1,17 @@
-//When the user scrolls down hide n. When the user scrolls up show n 
-let previousScroll = window.pageYOffset;
+// //define the api
+// const apiURL = "https://ghibliapi.vercel.app";
 
-function windowScroll() {
-    let currentScroll = window.pageYOffset;
-    if(previousScroll > currentScroll){
-        document.getElementById("n").style.top = "0";
-    } else {
-        document.getElementById("n").style.top = "-50px";
-    }
-    previousScroll = currentScroll
-}
-
-windowScroll()
-
-
-
-window.addEventListener('DOMContentLoaded', () => {
-    const ghibliAPI = `https://ghibliapi.herokuapp.com/films`
-    fetch(ghibliAPI)
-    .then(response => response.json())
-    .then(data => console.log(data))
-
-})
-
+// //make a get request
+// fetch(apiURL)
+// 	.then((response) => {
+// 		if (!response.ok) {
+// 			throw new Error("There is an error cutie");
+// 		}
+// 		return response.json();
+// 	})
+// 	.then((data) => {
+// 		console.log(data);
+// 	})
+// 	.catch((error) => {
+// 		console.error("Error:", error);
+// 	});
