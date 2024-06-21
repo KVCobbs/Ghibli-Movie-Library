@@ -1,14 +1,17 @@
 # Ghibli-Movie-Library
-This is a personal project for myself to understand fetching more as well as work on more frontend code. This project uses https://github.com/janaipakos/ghibliapi as the API. 
+
+This is a personal project for myself to understand fetching more as well as work on more frontend code. This project uses https://github.com/janaipakos/ghibliapi as the API.
 Wireframes: https://www.figma.com/file/6LFHyz595l190pmL3b4sqc/Ghibli-Movie-Review?node-id=0%3A1
-features of this project: 
+features of this project:
 
-MVP 
-- Use of bootstrap in order to create readable UI 
-- Completed working back end 
+MVP
 
+- Use of html css javascript in order to create readable UI
+- Used fetch to get data from the ghibli api
 
-Stretch Features 
+Stretch Features
+
 - Ghibli quiz
-- light and dark mode 
+- light and dark mode
 - carousel of main movies(only 3)
+- come up with images for the endpoints
